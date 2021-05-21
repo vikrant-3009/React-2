@@ -1,0 +1,48 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+}
+
+.error-modal {
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title {
+    background-color: rgb(112, 7, 112);
+    padding: 1rem;
+}
+
+.title h2 {
+    color: white;
+    margin: 0;
+}
+
+.content {
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+    .error-modal {
+        left: calc(50% - 20rem);
+        width: 40rem;
+    }
+} 

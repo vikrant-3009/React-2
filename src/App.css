@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.user {
+  display: block;
+  width: 40rem;
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.user-form {
+  background-color: white;
+  margin: 2rem auto;
+  width: 40rem;
+  max-width: 90%;
+  padding: 2rem;
+  border-radius: 10px;
+}
